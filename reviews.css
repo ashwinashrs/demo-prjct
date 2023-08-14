@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Poppins", sans-serif;
+}
+.cards{
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+.cards h2.header{
+  font-size: 30px;
+  margin: 0 0 30px 0;
+  letter-spacing: 1px;
+}
+.services{
+  display: flex;
+  align-items: center;
+}
+.content1{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #062f97;
+  border-radius: 20px;
+  transition: all .3s ease;
+}
+.content1 .fab{
+  font-size: 70px;
+  margin: 16px 0;
+}
+.content1 > *{
+  flex: 1 1 100%;
+}
+.content1:hover{
+  color: white;
+}
+.content1:hover a{
+  border-color: white;
+  background: rgb(255, 255, 255);
+}
+.content-1:hover{
+  border-color: #000000;
+  background: #000000;
+}
+.content-1:hover a{
+  color: #000000;
+}
+.content2:hover{
+  border-color: #000000;
+  background: #000000
+}
+.content2:hover a{
+  color: #000000;
+}
+.content3:hover{
+  border-color: #000000;
+  background: #000000;
+}
+.content3:hover a{
+  color: #000000;
+}
+.content1 h2{
+  font-size: 25px;
+  margin: 16px 0;
+  letter-spacing: 1px;
+  
+}
+.content1 p{
+  font-size: 17px;
+  font-family: 'Poppins',sans-serif;
+}
+.content1 a{
+  margin: 22px 0;
+  background: black;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 15px 0;
+  border-radius: 25px;
+  transition: .3s ease;
+}
+.content1 a:hover{
+  border-radius: 4px;
+}
+
+
+@media (max-width: 900px) {
+  .services{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
